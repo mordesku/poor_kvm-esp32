@@ -1,2 +1,2 @@
-idf_component_register(SRCS "main.c" storage.c
+idf_component_register(SRCS "main.c" storage.c lua_test.c
                     INCLUDE_DIRS "")

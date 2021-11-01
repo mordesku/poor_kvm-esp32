@@ -13,9 +13,11 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 #include "esp32/rom/uart.h"
+#include "lua_test.h"
 
 void app_main()
 {
+    do_magic();
     if (!storage_init("storage")) {
         printf("Can't init NVS storage.\n");
         return;
